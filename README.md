@@ -1,5 +1,4 @@
 # WordPress
-Web-julkaisujärjestelmät -kurssin harjoituksia (syksy 2020) ja muuta WordPress-kokeilua  
 
 TTMS1000 Web-julkaisujärjestelmät -kurssi (JAMK, syksy 2020)
 - WordPress-käyttöönotto, asennus, hallintapaneelin toiminta, oletusteeman kustomointi  
