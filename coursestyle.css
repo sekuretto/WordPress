@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+nav,
+section,
+footer {
+    max-width: 960px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#otsikko,
+footer {
+    background-color: rgb(63, 63, 253);
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+h6 {
+    display: block;
+}
+
+nav {
+    margin-top: 30px;
+    background-color: beige;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* navigation-bar on top */
+nav li {
+    display: inline;
+    border-right: 1px solid #bbb;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+.navi a {
+    display: inline-block;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.navi a:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* sticks navigation to the top left when scrolling 
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+} */
+
+article {
+    background-color: beige;
+    border: 1px dashed grey;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+}
+
+.tehtava {
+    width: 100%;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(59, 92, 163);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* NOTE: a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective! a:active MUST come after a:hover in the CSS definition in order to be effective!  */
+
+/* kuvagalleria-kehykset */
+div.kuvat {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.kuvat:hover {
+    border: 1px solid #777;
+}
+
+div.kuvat img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+/* .kuvat {
+    display: block;
+    width: 120px;
+    margin: auto;
+    padding: 5px;
+    overflow: auto;
+    text-align: center;
+} */
+
+/* .kuvat>img {
+    border: 1px #000000 dashed;
+    opacity: 0.5; 
+} */
+
+/* .kuvat>img:hover {
+    opacity: 1, 0;
+} */
+
+/* läpinäkyvä artikkeli/60% opacity */
+#transparent {
+    background: rgba(192, 192, 192, 0.6);
+}
+
+footer>p {
+    padding-top: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

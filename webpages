@@ -1,0 +1,43 @@
+PHP configuration:
+------------------
+Look in the .htaccess file in your public_html directory.
+
+
+MariaDB:
+--------
+https://mariadb.labranet.jamk.fi to generate your database and credentials.
+The server is accessible from student, and from LabraNet in general.
+Mariadb 10.5, with charset utf8mb4 and collation utf8mb4_unicode_ci
+TLS is enabled
+
+PostgreSQL:
+-----------
+https://postgres.labranet.jamk.fi to generate your database and credentials.
+The server is accessible from student, and from LabraNet in general.
+PostgreSQL 12.4.
+TLS is enabled
+
+
+
+MySQL: (legacy, deprecated)
+------
+https://mysql.labranet.jamk.fi to generate your database and credentials.
+The server is accessible from student, and from LabraNet in general.
+MySQL is Centos 6 stock, but defaults to InnoDB for new tables.
+This server won't be around indefinitely.
+Do not use for anything new. Migrate old stuff away if you want to keep it.
+
+
+
+
+Permissions to serve web pages:
+-------------------------------
+Minimum permissions for your homedir: 701
+Minimum permissions for your public_html dir: 701 (705 to enable directory listing) (All other files and directories in your homedir should probably be 600 and 700, respectively)
+Minimum permissions for directories under public_html: 701 (705 to enable listing)
+Minimum permissions for static files under public_html (everything except php): 604
+Minimum permissions for php files under public_html: 600
+
+Note:   Files uploaded through apache/php may land with 644 permissions.
+        This means uploaded php files may be readable by anyone, which may not be desirable.
+
