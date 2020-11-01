@@ -8,6 +8,7 @@ TTMS1000 Web-julkaisujärjestelmät -kurssi (JAMK, syksy 2020)
 - Custom-post -tyypit  
 - Harjoitustyö  
 
+Harjoitukset toteutettu WordPressin versiolla 5.5.1.  
 
 Harjoitukset ja kuvankaappaukset niiden toteutuksista:  
 https://student.labranet.jamk.fi/~K8691/webjulkaisujarjestelmat.html  
