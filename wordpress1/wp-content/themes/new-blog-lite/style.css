@@ -1,0 +1,43 @@
+/*
+Theme Name: New Blog Lite
+Theme URI: https://www.postmagthemes.com/downloads/new-blog-lite-a-free-wordpress-theme/
+Author: www.postmagthemes.com
+Author URI: https://www.postmagthemes.com/
+Description: New blog lite theme is a child theme of New Blog. New blog lite is a well-deserved WordPress theme. It has well-mannered design and yet modest to configure. It is the most personalized theme by the user. Ready to stake user story to their viewer in distinctive manner. All the descriptions are well customized and has touch from customizer. It is one of the free WordPress themes that support Gutenberg feature. It is developed with the mind that a novice WordPress user can set it up. We believe that theme should be opportune to user so that it can be easily become your voice to your fan around the globe. You can see demo here: https://postmagthemes.com/demonewbloglite/
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: new-blog-lite
+Template: new-blog
+Tags: two-columns, three-colume, grid-layout, footer-widgets, translation-ready, blog, news, right-sidebar, left-sidebar, custom-header, custom-background, custom-logo, custom-menu, custom-colors, threaded-comments, featured-images, theme-options, full-width-template
+
+New Blog Lite, Copyright 2018 Postmagthemes https://www.postmagthemes.com
+New Blog Lite is distributed under the terms of GNU GPL v2 or later.
+
+New Blog is derived from Underscores https://underscores.me/, (C) 2013 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+.middle-content .list-blog .row div[class*=col-]:nth-child(even) .media .media-body{
+	text-align: right;
+}
+
+@media (max-width: 767px){
+	.middle-content .list-blog .media .media-body{
+		text-align: left !important;
+	}
+}
+.search-result .result-holder {
+	background: none;
+}
+.search-result {
+	text-align: left;
+	font-size: 30px;
+}
+.detail-block .thumb-body ul,
+#scroll-top .entry-content ul { 
+	margin: 19px !important;
+}
