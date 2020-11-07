@@ -1,0 +1,4 @@
+post_title,post_name,post_status,sku,downloadable,virtual,visibility,stock,stock_status,backorders,manage_stock,regular_price,sale_price,weight,length,width,height,tax_status,tax_class,tax:product_type,tax:product_cat,tax:product_tag
+CSV Escort,csv-escort,publish,12345,no,no,visible,,instock,no,no,666,665,,,,,taxable,,variable,Autokauppa>Fords,fordtag
+CSV Passat,csv-passat,publish,12346,no,no,visible,,instock,no,no,777,776,,,,,taxable,,variable,Autokauppa>Passats,passattag
+ 

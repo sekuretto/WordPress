@@ -1,0 +1,120 @@
+/*
+Theme Name: miniteema
+Description: Test
+Author: Ari
+Version: 1.0
+*/
+/*Reset Css*/
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+}
+
+#site-navigation,
+.wrapper,
+.ownfooter {
+  margin-left: +10%;
+  margin-right: +10%;
+  padding: 0;
+}
+
+.ownfooter {
+  font-family: Monaco, "Courier New", Courier, monospace;
+}
+
+h1 {
+  background-color: #cef;
+  display: inline-block;
+  font-size: 150%
+}
+
+h1 {
+  background-color: #e4ebef;
+  display: inline-block;
+  font-size: 150%
+}
+
+h2 {
+  background-color: #8cacbb;
+  display: inline-block;
+  font-size: 130%
+}
+
+h3 {
+  background-color: #abb;
+  display: inline-block;
+  font-size: 120%
+}
+
+.customcontentarea,
+aside {
+  padding: 1em;
+  border: 1px dashed #2f6fab;
+  background-color: #f9f9f9;
+  overflow: auto;
+}
+
+aside {
+  background-color: #ffe;
+  margin-bottom: 0px;
+}
+
+.ownfooter {
+  margin-top: 0px;
+  background-color: #ddd;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ddd;
+}
+
+li {
+  float: left;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: #444;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,
+.menu-item-has-children:hover .dropbtn {
+  background-color: #ffc;
+}
+
+li.menu-item-has-children {
+  display: inline-block;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.sub-menu a {
+  color: #444;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.sub-menu a:hover {
+  background-color: #ffc
+}
+
+.menu-item-has-children:hover .sub-menu {
+  display: block;
+}

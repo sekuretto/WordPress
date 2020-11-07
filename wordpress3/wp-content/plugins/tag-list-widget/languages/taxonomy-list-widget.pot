@@ -1,0 +1,206 @@
+# Copyright (C) 2020 Erick Hitter
+# This file is distributed under the same license as the Taxonomy List Widget package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Taxonomy List Widget 1.3.1\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/taxonomy-list-widget\n"
+"POT-Creation-Date: 2020-08-30 21:07:15+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: taxonomy-list-widget.php:527
+msgid "Basic Settings"
+msgstr ""
+
+#: taxonomy-list-widget.php:530
+msgid "Taxonomy"
+msgstr ""
+
+#: taxonomy-list-widget.php:539
+msgid "Title:"
+msgstr ""
+
+#: taxonomy-list-widget.php:543
+msgid "List Style"
+msgstr ""
+
+#: taxonomy-list-widget.php:546
+msgid "Bulleted list"
+msgstr ""
+
+#: taxonomy-list-widget.php:547
+msgid "Numbered list"
+msgstr ""
+
+#: taxonomy-list-widget.php:548
+msgid "Line break"
+msgstr ""
+
+#: taxonomy-list-widget.php:549
+msgid "Custom, as specified below"
+msgstr ""
+
+#: taxonomy-list-widget.php:552
+msgid "Custom list style"
+msgstr ""
+
+#: taxonomy-list-widget.php:574
+msgid "Order"
+msgstr ""
+
+#: taxonomy-list-widget.php:577
+msgid "Order terms by:"
+msgstr ""
+
+#: taxonomy-list-widget.php:580
+msgid "Name"
+msgstr ""
+
+#: taxonomy-list-widget.php:583
+msgid "Post count"
+msgstr ""
+
+#: taxonomy-list-widget.php:587
+msgid "Order terms:"
+msgstr ""
+
+#: taxonomy-list-widget.php:590
+msgid "Ascending"
+msgstr ""
+
+#: taxonomy-list-widget.php:593
+msgid "Descending"
+msgstr ""
+
+#: taxonomy-list-widget.php:596
+msgid "Term Display"
+msgstr ""
+
+#: taxonomy-list-widget.php:599
+msgid "Limit number of terms shown to:"
+msgstr ""
+
+#: taxonomy-list-widget.php:601
+msgid "<small>Enter <strong>0</strong> for no limit."
+msgstr ""
+
+#: taxonomy-list-widget.php:605
+msgid "Trim long term names to <em>x</em> characters:</label>"
+msgstr ""
+
+#: taxonomy-list-widget.php:607
+msgid "<small>Enter <strong>0</strong> to show full tag names."
+msgstr ""
+
+#: taxonomy-list-widget.php:611
+msgid "Indicator that term names are trimmed:"
+msgstr ""
+
+#: taxonomy-list-widget.php:613
+msgid "<small>Leave blank to use an elipsis (&hellip;).</small>"
+msgstr ""
+
+#: taxonomy-list-widget.php:618
+msgid "Include terms that aren't assigned to any objects (empty terms)."
+msgstr ""
+
+#: taxonomy-list-widget.php:623
+msgid "Display object (post) counts after term names."
+msgstr ""
+
+#: taxonomy-list-widget.php:626
+msgid "Include/Exclude Terms"
+msgstr ""
+
+#: taxonomy-list-widget.php:629
+msgid "Include/exclude terms:"
+msgstr ""
+
+#: taxonomy-list-widget.php:632
+msgid "Include only the term IDs listed below"
+msgstr ""
+
+#: taxonomy-list-widget.php:635
+msgid "Exclude the term IDs listed below"
+msgstr ""
+
+#: taxonomy-list-widget.php:639
+msgid "Term IDs to include/exclude based on above setting:"
+msgstr ""
+
+#: taxonomy-list-widget.php:641
+msgid "<small>Enter comma-separated list of term IDs.</small>"
+msgstr ""
+
+#: taxonomy-list-widget.php:644
+msgid "Advanced"
+msgstr ""
+
+#: taxonomy-list-widget.php:647
+msgid "Show terms assigned to at least this many posts:"
+msgstr ""
+
+#: taxonomy-list-widget.php:649
+msgid ""
+"<small>Set to <strong>0</strong> to display all terms matching the above "
+"criteria.</small>"
+msgstr ""
+
+#: taxonomy-list-widget.php:653
+msgid "Link relationship:"
+msgstr ""
+
+#: taxonomy-list-widget.php:656
+msgid "nofollow"
+msgstr ""
+
+#: taxonomy-list-widget.php:659
+msgid "dofollow"
+msgstr ""
+
+#: taxonomy-list-widget.php:661
+msgid ""
+"The above setting determines whether or not search engines visit linked "
+"pages from links in this widget's list."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Taxonomy List Widget"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://ethitter.com/plugins/taxonomy-list-widget/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Creates a list of non-hierarchical taxonomies as an alternative to the term "
+"(tag) cloud. Widget provides numerous options to tailor the output to fit "
+"your site. List function can also be called directly for use outside of the "
+"widget. Formerly known as <strong><em>Tag List Widget</em></strong>."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Erick Hitter"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://ethitter.com/"
+msgstr ""

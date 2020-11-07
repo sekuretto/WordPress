@@ -1,0 +1,336 @@
+# Translation of Themes - Iconic One in English (UK)
+# This file is distributed under the same license as the Themes - Iconic One package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-13 11:54:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_GB\n"
+"Project-Id-Version: Themes - Iconic One\n"
+
+#. Description of the theme
+msgid "Iconic One is a premium quality theme with pixel perfect typography and responsiveness and is built for speed with pagespeed score of 95+, Iconic One implements proper SEO so that your content will rank high and is compatible with AIOSEO and Yoast SEO, It makes proper use of Live customizer that allows you to setup the theme in minutes, you can easily upload the logo, modify the background color, footer text, social media urls without touching any line of code. It utilizes latest HTML 5, CSS3 and wordpress native functions for creating the awesomeness that looks good on every browser. Support is free, access the support here http://themonic.com/support/, Report issues and feedback at http://themonic.com/feedback/."
+msgstr "Iconic One is a premium quality theme with pixel perfect typography and responsiveness and is built for speed with a page speed score of 95+. Iconic One implements proper SEO, so that your content will rank high and is compatible with AIOSEO and Yoast SEO. It makes proper use of Live Customiser that allows you to set up the theme in minutes. You can easily upload the logo, modify the background colour, footer text, and social media URL's without touching any line of code. It utilises the latest HTML5, CSS3 and WordPress native functions for creating an awesomeness that looks good on every browser. Support is free, access the support here: http://themonic.com/support/. Report issues and feedback at http://themonic.com/feedback/."
+
+#. Theme Name of the theme
+#: inc/iconic-one-options.php:17
+msgid "Iconic One"
+msgstr "Iconic One"
+
+#: inc/themonic-customizer.php:226
+msgid "Auto display featured image below post title in single post pages"
+msgstr "Auto display featured image below post title in single post pages"
+
+#: inc/themonic-customizer.php:217
+msgid "Replace published date with last updated date"
+msgstr "Replace published date with last updated date"
+
+#: inc/themonic-customizer.php:259
+msgid "Check Out PRO Version"
+msgstr "Check Out the PRO Version"
+
+#: inc/themonic-customizer.php:250
+msgid "Learn more about Iconic One Pro with Unlimited colors, Home Page Slider, Beautiful Author Pages, Ad Manager for Adsense and banner ads, breadcrumb, pagination and many more.."
+msgstr "Learn more about Iconic One Pro with unlimited colours, homepage slider, beautiful author pages, Ad Manager for Adsense and banner ads, breadcrumbs, pagination and much more.."
+
+#: inc/themonic-customizer.php:241
+msgid "Iconic One Pro"
+msgstr "Iconic One Pro"
+
+#: inc/themonic-customizer.php:231
+msgid "PRO Version"
+msgstr "PRO Version"
+
+#: inc/themonic-customizer.php:172
+msgid "Post Settings"
+msgstr "Post Settings"
+
+#. Template Name of the theme
+msgid "Full-width Page Template, No Sidebar"
+msgstr "Full-width Page Template, No Sidebar"
+
+#: tag.php:19
+msgid "Tag Archives: %s"
+msgstr "Tag Archives: %s"
+
+#: single.php:20
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: single.php:19
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: sidebar.php:29
+msgid "Tag Cloud"
+msgstr "Tag Cloud"
+
+#: sidebar.php:24
+msgid "Pages"
+msgstr "Pages"
+
+#: sidebar.php:20
+msgid "Recent Posts"
+msgstr "Recent Posts"
+
+#: search.php:38
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Search Results for: %s"
+
+#: index.php:42
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+
+#: index.php:38
+msgid "No posts to display"
+msgstr "No posts to display"
+
+#: inc/themonic-customizer.php:126
+msgid "Social"
+msgstr "Social"
+
+#: inc/themonic-customizer.php:103
+msgid "Footer"
+msgstr "Footer"
+
+#: inc/themonic-customizer.php:39 inc/themonic-customizer.php:45
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/iconic-one-options.php:18
+msgid "Customize Iconic One"
+msgstr "Customise Iconic One"
+
+#: image.php:42
+msgid "Next &rarr;"
+msgstr "Next &rarr;"
+
+#: image.php:41
+msgid "&larr; Previous"
+msgstr "&larr; Previous"
+
+#: image.php:26
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+
+#: header.php:58
+msgid "Skip to content"
+msgstr "Skip to content"
+
+#: functions.php:282
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+
+#: functions.php:280
+msgid "This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+
+#. Translators: 1 is category, 2 is tag, 3 is the date and 4 is the author's
+#. name.
+#: functions.php:278
+msgid "This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+
+#: functions.php:272
+msgid "View all posts by %s"
+msgstr "View all posts by %s"
+
+#. Translators: used between list items, there is a space after the comma.
+#: functions.php:258 functions.php:261
+msgid ", "
+msgstr ", "
+
+#: functions.php:239
+msgid "Reply"
+msgstr "Reply"
+
+#: functions.php:230
+msgid "Your comment is awaiting moderation."
+msgstr "Your comment is awaiting moderation."
+
+#. translators: 1: date
+#: functions.php:224
+msgid "%1$s"
+msgstr "%1$s"
+
+#: functions.php:218
+msgid "Post author"
+msgstr "Post author"
+
+#: functions.php:203
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: functions.php:203
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:178
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:177
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Older posts"
+
+#: single.php:18 functions.php:176
+msgid "Post navigation"
+msgstr "Post navigation"
+
+#: functions.php:154
+msgid "This is a Sitewide sidebar which appears on posts and pages"
+msgstr "This is a Sitewide sidebar which appears on posts and pages"
+
+#: functions.php:152
+msgid "Main Sidebar"
+msgstr "Main Sidebar"
+
+#: functions.php:129
+msgctxt "Ubuntu font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:69
+msgid "Read More"
+msgstr "Read More"
+
+#: functions.php:42
+msgid "Primary Menu"
+msgstr "Primary Menu"
+
+#: content.php:82
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:62 content.php:64
+msgid "Category:"
+msgstr "Category:"
+
+#: content.php:55
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:38
+msgid "% Comments"
+msgstr "% Comments"
+
+#: content.php:38
+msgid "1 Comment"
+msgstr "1 Comment"
+
+#: content.php:38
+msgid "0 Comment"
+msgstr "0 Comment"
+
+#: content.php:26
+msgid "By"
+msgstr "By"
+
+#: content.php:20 inc/extra-functions.php:10
+msgid "Permalink to %s"
+msgstr "Permalink to %s"
+
+#: content.php:12
+msgid "Featured Article"
+msgstr "Featured Article"
+
+#: content.php:71 functions.php:235 content-page.php:21 image.php:37
+msgid "Edit"
+msgstr "Edit"
+
+#: content.php:56 content-page.php:18 image.php:92
+msgid "Pages:"
+msgstr "Pages:"
+
+#: content-none.php:13 search.php:34 index.php:49
+msgid "Nothing Found"
+msgstr "Nothing Found"
+
+#: comments.php:47
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+#: comments.php:38
+msgid "Newer Comments &rarr;"
+msgstr "Newer Comments &rarr;"
+
+#: comments.php:37
+msgid "&larr; Older Comments"
+msgstr "&larr; Older Comments"
+
+#: comments.php:36
+msgid "Comment navigation"
+msgstr "Comment navigation"
+
+#: comments.php:25
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "One thought on &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s thoughts on &ldquo;%2$s&rdquo;"
+
+#: category.php:16
+msgid "Category Archives: %s"
+msgstr "Category Archives: %s"
+
+#: content.php:78 author.php:50
+msgid "About %s"
+msgstr "About %s"
+
+#: author.php:29
+msgid "Author Archives: %s"
+msgstr "Author Archives: %s"
+
+#: archive.php:35
+msgid "Archives"
+msgstr "Archives"
+
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:33
+msgid "Yearly Archives: %s"
+msgstr "Yearly Archives: %s"
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:31
+msgid "Monthly Archives: %s"
+msgstr "Monthly Archives: %s"
+
+#: archive.php:29
+msgid "Daily Archives: %s"
+msgstr "Daily Archives: %s"
+
+#: content-none.php:17 index.php:53 404.php:21
+msgid "Kindly search your topic below or browse the recent posts."
+msgstr "Kindly search your topic below or browse the recent posts."
+
+#: 404.php:17
+msgid "Nothing Here!"
+msgstr "Nothing Here!"
+
+#. Author URI of the theme
+msgid "https://themonic.com"
+msgstr "https://themonic.com"
+
+#. Author of the theme
+msgid "Themonic"
+msgstr "Themonic"
+
+#. Theme URI of the theme
+msgid "https://themonic.com/iconic-one/"
+msgstr "https://themonic.com/iconic-one/"

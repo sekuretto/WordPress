@@ -1,0 +1,67 @@
+/*
+Theme Name: miniteema-ini
+Description: Test
+Author: Ari
+Version: 0.1
+*/
+
+/*Reset Css
+
+* {font-family: 'Open Sans', sans-serif; font-size: 100%;}
+
+*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ddd;
+}
+
+li {
+  float: left;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: #444;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,
+.menu-item-has-children:hover .dropbtn {
+  background-color: #ffc;
+}
+
+li.menu-item-has-children {
+  display: inline-block;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.sub-menu a {
+  color: #444;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.sub-menu a:hover {
+  background-color: #ffc
+}
+
+.menu-item-has-children:hover .sub-menu {
+  display: block;
+}

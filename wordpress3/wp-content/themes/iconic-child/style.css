@@ -1,0 +1,27 @@
+/*
+ Theme Name:   Iconic One lapsiteema
+ Template:     iconic-one
+*/
+
+@import url("../iconic-one/style.css");
+
+.widget-area .widget-title {
+  font-size: 32px;
+  color: #16A1E7;
+  background: #a2a2a2;
+}
+
+.entry-header .entry-title {
+  font-size: 32px;
+  color: #16A1E7;
+  background: #a2a2a2;
+  line-height: 1.2;
+  font-weight: normal;
+  padding: 8px 10px;
+  margin-bottom: 20px;
+}
+
+.entry-header .entry-title a {
+  color: #16A1E7;
+  text-decoration: none;
+}
